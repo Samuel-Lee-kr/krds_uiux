@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="apple-touch-icon" sizes="180x180" href="../resources/css/images/guide/favicon_180.png">
+	<link rel="icon" type="image/png" sizes="512x512" href="../resources/css/images/guide/favicon_512.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../resources/css/images/guide/favicon_192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../resources/css/images/guide/favicon_32.png">
+	<title>레이아웃 - KRDS</title>
+	<link href="../resources/css/pattern_css.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="">
+	<div id="wrap">
+        <!-- 컴포넌트 입력 -->
+		<div id="container">
+			<!-- //도움말 영역 -->
+			<!-- 도움말 열기 버튼 -->
+			<button type="button" class="btn btn-helper btn-help-exec expand btn-help-clicked" style="margin-top: 217px;">도움말</button>
+			<div class="helper-area expand">
+				<!-- 도움말 내용 -->
+				<div class="helper-wrap" aria-expanded="true" style="padding-top: 217px;" tabindex="0">
+					<h4 class="helper-tit sr-only">도움말</h4>
+					<div class="helper-conts-area" style="height: 704px;">
+						<!-- 도움말 내용 -->
+						<div class="helper-in">
+							<!-- 탭  -->
+							<div class="tab-area layer">
+								<!-- tab list -->
+								<div class="tab line">
+									<ul role="tablist">
+										<li id="helperTab01" role="tab" aria-selected="true" aria-controls="helperTabpanel01" class="active">
+											<button type="button" class="btn-tab">tab1<i class="sr-only created"> 선택됨</i></button>
+										</li>
+										<li id="helperTab02" role="tab" aria-selected="false" aria-controls="helperTabpanel02">
+											<button type="button" class="btn-tab">tab2 <i class="sr-only created">선택됨</i></button>
+										</li>
+									</ul>
+								</div>
+								<!-- //tab list -->
+
+								<!-- tab contents -->
+								<div class="tab-conts-wrap">
+									<section id="helperTabpanel01" role="tabpanel" aria-labelledby="helperTab01" class="tab-conts active">
+										<h3 class="sr-only">tab1</h3>
+										<div class="helper-conts-area">
+											<!-- 도움말 -->
+											<div class="conts-area helper-conts">
+												<div class="conts-wrap">
+													<h5 class="tit">
+														title1
+														<i class="btn btn-ico ico-help sm-m">
+															<span class="sr-only">도움말</span>
+														</i>
+													</h5>
+													<div class="conts-desc">
+														<p>content</p>
+													</div>
+													<ul class="link-list">
+														<li><a href="#" class="btn sm btn-txt ico-go" target="_blank" title="새 창 열림">link btn1</a>
+														</li>
+														<li><a href="#" class="btn sm btn-txt ico-go" target="_blank" title="새 창 열림">iOS
+															link btn2</a></li>
+													</ul>
+												</div>
+											</div>
+											<!-- //도움말 -->
+											<!-- 관련 서비스 -->
+											<div class="conts-area related-service">
+												<div class="conts-wrap">
+													<h5 class="tit">title2</h5>
+													<ul class="link-list">
+														<li><a href="#" class="btn sm btn-txt">link btn3</a></li>
+														<li><a href="#" class="btn sm btn-txt">link btn4</a></li>
+														<li><a href="#" class="btn sm btn-txt">link btn5</a></li>
+													</ul>
+												</div>
+												<div class="conts-wrap">
+													<h5 class="tit">title3</h5>
+													<ul class="link-list">
+														<li><a href="#" class="btn sm btn-txt ico-call ico-before">link btn6</a></li>
+														<li><a href="#" class="btn sm btn-txt ico-faq ico-before">link btn7</a></li>
+													</ul>
+												</div>
+											</div>
+											<!-- //관련 서비스 -->
+										</div>
+									</section>
+									<section id="helperTabpanel02" role="tabpanel" aria-labelledby="helperTab02" class="tab-conts">
+										<h3 class="sr-only">tab2</h3>
+										<div>
+											title2
+										</div>
+									</section>
+								</div>
+								<!-- //tab contents -->
+							</div>
+							<!-- //탭 -->
+						</div>
+						<!-- //도움말 내용 -->
+						<!-- 도움말 닫기 -->
+						<button type="button" class="btn btn-helper fold" style="margin-top: 217px;"><span class="sr-only">도움말</span>접어두기</button>
+						<!-- //도움말 닫기 -->
+					</div>
+				</div>
+				<!-- //도움말 내용 -->
+			</div>
+			<!-- //도움말 열기 버튼 -->
+			<!-- //도움말 영역 -->
+		</div>
+	</div>
+
+	<!-- 스크립트 : 라이브러리 -->
+	<script src="../resources/js/pattern/jquery.min.js"></script>
+
+	<!-- 스크립트 : 패턴 페이지 -->
+	<script src="../resources/js/pattern/ui-pattern-script.js"></script>
+
+	<!-- 스크립트 : 컴포넌트 -->
+	<script src="../resources/js/component/ui-script.js"></script>
+
+
+<div class="w-gnb-dim" style="display: none;"></div></body></html>
