@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="apple-touch-icon" sizes="180x180" href="../resources/css/images/guide/favicon_180.png">
+	<link rel="icon" type="image/png" sizes="512x512" href="../resources/css/images/guide/favicon_512.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../resources/css/images/guide/favicon_192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../resources/css/images/guide/favicon_32.png">
+	<title>레이아웃 - KRDS</title>
+	<link href="../resources/css/pattern_css.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="">
+	<div id="wrap">
+        <!-- 컴포넌트 입력 -->
+		<div id="container">
+			<div class="inner narrow page-step">
+				<!-- 컨텐츠 영역 -->
+				<div class="conts-area step-type">
+					<div class="conts-wrap">
+						<div class="conts-wrap">
+							<h3 class="sec-tit">
+								<span class="step-now"><strong class="active">N</strong> / M</span>
+								Process
+							</h3>
+
+							<div>
+								<!-- Target Div 1 -->
+								<div id="target_div1" class="target_div txt-box bg-white coach-highligt">
+									<!-- 따라하기 말풍선 -->
+									<div id="coach_div1" class="coach_div coach-balloon">
+										<h5 class="sr-only">따라하기 가이드</h5>
+										<h6 class="coach-tit">Title 1</h6>
+										<p class="desc">Content 1</p>
+										<div class="coach-controls">
+											<div class="num">
+												<span class="sr-only">현재 단계</span>
+												<strong>N</strong>
+												<span class="sr-only">총 단계</span>
+												<span>M</span>
+											</div>
+											<div class="btn-wrap">
+												<button type="button" class="btn sm btn-txt" onclick="makeCoachArea(1);"><span>Prev</span></button>
+												<button type="button" class="btn sm tertiary" onclick="makeCoachArea(2);"><span>Next</span></button>
+											</div>
+										</div>
+									</div>
+									<!--// 따라하기 말풍선 -->
+
+									<h4 class="box-tit1">target Title 1</h4>
+									<div class="box-cnt">
+										<div class="box-sec">
+											<h5 class="box-tit2">Sub Title 2</h5>
+											<div class="form-group">
+												<div class="form-conts">
+													<div class="input-group m-column">
+														<select class="form-select" title="option 1">
+															<option value="">op 1-1</option>
+															<option value="">op 1-2</option>
+														</select>
+														<select class="form-select" title="option 2">
+															<option value="">op 2-1</option>
+															<option value="">op 2-2</option>
+														</select>
+														<button type="button" class="btn secondary" onclick="addrSch();">Submit</button>
+													</div>
+												</div>
+											</div>
+											<div class="form-addr-result" id="sch-result-addr" style="display: none">
+												<ul class="info-ul">
+													<li>
+														<span class="key">Key 1</span>
+														<span class="value">Value 1</span>
+													</li>
+													<li>
+														<span class="key">Key 2</span>
+														<span class="value">Value 2</span>
+													</li>
+												</ul>
+												<ul class="info-ul">
+													<li>
+														<span class="key">Key 3</span>
+														<span class="value">Value 3</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<!-- //Target Div 1 -->
+
+								<!-- Target Div 2 -->
+								<div id="target_div2" class="target_div txt-box bg-white">
+									<!-- 따라하기 말풍선 -->
+									<div id="coach_div2" class="coach_div coach-balloon" style="display: none;">
+										<h5 class="sr-only">따라하기 가이드</h5>
+										<h6 class="coach-tit">Title 2</h6>
+										<p class="desc">Content 2</p>
+										<div class="coach-controls">
+											<div class="num">
+												<span class="sr-only">현재 단계</span>
+												<strong>N</strong>
+												<span class="sr-only">총 단계</span>
+												<span>M</span>
+											</div>
+											<div class="btn-wrap">
+												<button type="button" class="btn sm btn-txt" onclick="makeCoachArea(1);"><span>Prev</span></button>
+												<button type="button" class="btn sm tertiary" onclick="makeCoachArea(2);"><span>Next</span></button>
+											</div>
+										</div>
+									</div>
+									<!--// 따라하기 말풍선 -->
+									<h4 class="box-tit1">target Title 2</h4>
+									<div class="tbl-no-data" id="sch-tbl-no">before submit</div>
+									<div class="box-cnt" id="sch-result-tbl" style="display: none">
+										<div class="box-sec">
+											<h5 class="box-tit2">Target SubTitle 2</h5>
+											after submit
+										</div>
+									</div>
+								</div>
+								<!-- //Target Div 2 -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //컨텐츠 영역 -->
+			</div>
+		</div>
+	</div>
+
+	<!-- 스크립트 : 라이브러리 -->
+	<script src="../resources/js/pattern/jquery.min.js"></script>
+
+	<!-- 스크립트 : 패턴 페이지 -->
+	<script src="../resources/js/pattern/ui-pattern-script.js"></script>
+
+	<!-- 스크립트 : 컴포넌트 -->
+	<script src="../resources/js/component/ui-script.js"></script>
+
+	<script>
+		function addrSch() {
+			const $addr = document.querySelector('#sch-result-addr');
+			const $tblNo = document.querySelector('#sch-tbl-no');
+			const $tbl = document.querySelector('#sch-result-tbl');
+			$addr.style.display = 'block';
+			$tblNo.style.display = 'none';
+			$tbl.style.display = 'block';
+		}
+
+		function makeCoachArea(targetNumber) {
+			const $allTargetDiv = document.querySelectorAll('.target_div');
+			const $allCoachDiv = document.querySelectorAll('.coach_div');
+
+			if($allTargetDiv) {
+				$allTargetDiv.forEach(item => {
+					item.classList.remove('coach-highligt');
+				});
+			}
+			if($allCoachDiv) {
+				$allCoachDiv.forEach(item => {
+					item.style.display = 'none';
+				});
+			}
+
+			const $targetDiv = document.querySelector(`#target_div${targetNumber}`);
+			const $coachDiv = document.querySelector(`#coach_div${targetNumber}`);
+
+			$targetDiv.classList.add('coach-highligt');
+			$coachDiv.style.display = 'block';
+		}
+
+	</script>
+
+<div class="w-gnb-dim" style="display: none;"></div></body></html>

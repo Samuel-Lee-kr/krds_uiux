@@ -78,6 +78,13 @@ ROOT
 │  .gitignore
 │  README.md
 │
+├─.idea
+│      .gitignore
+│      krds_uiux.iml
+│      modules.xml
+│      vcs.xml
+│      workspace.xml
+│
 ├─components
 │      00. 탬플릿.html
 │      01. 공식배너.html
@@ -95,7 +102,6 @@ ROOT
 │      10. 페이지네이션.html
 │      11. 구조화 목록.html
 │      12. 긴급공지.html
-│      12. 긴급공지.html~
 │      13. 달력.html
 │      14. 디스클로저.html
 │      15. 모달(alert형).html
@@ -133,6 +139,13 @@ ROOT
 │      28. 스피너.html
 │      29. 도움 패널(타입1).html
 │      29. 도움 패널(타입2).html
+│      30. 따라가기 패널.html
+│      31. 맥락적 도움말.html
+│      32. 코치마크.html
+│      33. 날짜 입력 필드.html
+│      34. 텍스트 영역(textarea).html
+│      35. 텍스트 입력 필드(input text).html
+│      36. 파일 업로드.html
 │
 ├─resources
 │  ├─css
