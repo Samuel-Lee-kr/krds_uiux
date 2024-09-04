@@ -78,13 +78,6 @@ ROOT
 │  .gitignore
 │  README.md
 │
-├─.idea
-│      .gitignore
-│      krds_uiux.iml
-│      modules.xml
-│      vcs.xml
-│      workspace.xml
-│
 ├─components
 │      00. 탬플릿.html
 │      01. 공식배너.html
