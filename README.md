@@ -33,38 +33,40 @@
 ## 프로젝트 구성(폴더만)
 ```bash
 ROOT
-│ 
-├─samples           // 임시 웹사이트 샘플 html
-│ 
+│
 ├─components        // 각 UI 요소 별 html
-│ 
-└─resources         // JS, CSS, IMAGES 등 리소스 영역
-   │ 
-   ├─js
-   │  │ 
-   │  ├─component
-   │  │
-   │  └─pattern
-   │
-   └─css            // CSS 폴더 내 fonts, images를 포함
-      │
-      ├─output
-      │
-      ├─fonts
-      │
-      └─images
-         │  
-         ├─guide
-         │  
-         ├─component
-         │  │
-         │  └─common
-         │
-         └─pattern
-             ├─common
-             ├─content
-             ├─layout
-             └─sample
+│
+├─resources         // JS, CSS, IMAGES 등 리소스 영역
+│  │
+│  ├─css
+│  │  │
+│  │  └─output
+│  │
+│  ├─fonts
+│  │
+│  ├─images
+│  │  │
+│  │  ├─component
+│  │  │  │
+│  │  │  └─common
+│  │  │
+│  │  ├─favicon
+│  │  │
+│  │  └─pattern
+│  │      │
+│  │      ├─common
+│  │      │
+│  │      ├─content
+│  │      │
+│  │      ├─layout
+│  │      │
+│  │      └─sample
+│  └─js
+│      ├─component
+│      │
+│      └─pattern
+│
+└─samples           // 임시 웹사이트 샘플 html
 ```
 
 ## 프로젝트 구성(파일 포함)
@@ -74,7 +76,6 @@ ROOT
 
 ```bash
 ROOT
-│
 │  .gitignore
 │  README.md
 │
@@ -145,181 +146,6 @@ ROOT
 │  │  │  pattern_css.css
 │  │  │  swiper-bundle.min.css
 │  │  │
-│  │  ├─fonts
-│  │  │      PretendardGOV-Bold.subset.woff
-│  │  │      PretendardGOV-Medium.subset.woff
-│  │  │      PretendardGOV-Regular.subset.woff
-│  │  │
-│  │  ├─images
-│  │  │  ├─component
-│  │  │  │  └─common
-│  │  │  │          ico-prev_24.svg
-│  │  │  │          ico_arr1_20_right.svg
-│  │  │  │          ico_arr_16_down.svg
-│  │  │  │          ico_arr_16_right_gray70.svg
-│  │  │  │          ico_arr_20_down_blue.svg
-│  │  │  │          ico_arr_20_down_white.svg
-│  │  │  │          ico_arr_20_right.svg
-│  │  │  │          ico_arr_20_right_disabled.svg
-│  │  │  │          ico_arr_accordion.svg
-│  │  │  │          ico_arr_func_20.svg
-│  │  │  │          ico_bread_dot.svg
-│  │  │  │          ico_calendar.svg
-│  │  │  │          ico_call.svg
-│  │  │  │          ico_cal_dropdown.svg
-│  │  │  │          ico_cal_move.svg
-│  │  │  │          ico_check_8.svg
-│  │  │  │          ico_check_chip.svg
-│  │  │  │          ico_check_chip_checked.svg
-│  │  │  │          ico_check_chip_disabled.svg
-│  │  │  │          ico_check_primary_checked.svg
-│  │  │  │          ico_check_primary_disabled.svg
-│  │  │  │          ico_check_secondary.svg
-│  │  │  │          ico_check_secondary_checked.svg
-│  │  │  │          ico_check_secondary_disabled.svg
-│  │  │  │          ico_chip_del.svg
-│  │  │  │          ico_close_24.svg
-│  │  │  │          ico_close_modal.svg
-│  │  │  │          ico_comment_16.svg
-│  │  │  │          ico_del1_20.svg
-│  │  │  │          ico_del_20.svg
-│  │  │  │          ico_email_20.svg
-│  │  │  │          ico_faq.svg
-│  │  │  │          ico_file_20.svg
-│  │  │  │          ico_filter_20.svg
-│  │  │  │          ico_foldable.svg
-│  │  │  │          ico_go_20.svg
-│  │  │  │          ico_help_24.svg
-│  │  │  │          ico_hint_20.svg
-│  │  │  │          ico_hint_error.svg
-│  │  │  │          ico_info.svg
-│  │  │  │          ico_invalid_error_20.svg
-│  │  │  │          ico_invalid_ok_20.svg
-│  │  │  │          ico_like_20.svg
-│  │  │  │          ico_link_16.svg
-│  │  │  │          ico_login_20.svg
-│  │  │  │          ico_logout_16.svg
-│  │  │  │          ico_page_arr_left.svg
-│  │  │  │          ico_page_arr_right.svg
-│  │  │  │          ico_page_dot.svg
-│  │  │  │          ico_plus_24.svg
-│  │  │  │          ico_print_20.svg
-│  │  │  │          ico_pw_visible.svg
-│  │  │  │          ico_refresh_16.svg
-│  │  │  │          ico_sch1_20.svg
-│  │  │  │          ico_sch_20_wh.svg
-│  │  │  │          ico_sch_40.svg
-│  │  │  │          ico_scrap_20.svg
-│  │  │  │          ico_select_20.svg
-│  │  │  │          ico_select_lg.svg
-│  │  │  │          ico_setting_20.svg
-│  │  │  │          ico_share_20.svg
-│  │  │  │          ico_step_active.svg
-│  │  │  │          ico_swiper_more.svg
-│  │  │  │          ico_swiper_next.svg
-│  │  │  │          ico_swiper_next_gray.svg
-│  │  │  │          ico_swiper_next_wh.svg
-│  │  │  │          ico_swiper_play.svg
-│  │  │  │          ico_swiper_prev.svg
-│  │  │  │          ico_swiper_prev_gray.svg
-│  │  │  │          ico_swiper_prev_wh.svg
-│  │  │  │          ico_swiper_stop.svg
-│  │  │  │          ico_tooltip_20.svg
-│  │  │  │          ico_tool_arr.svg
-│  │  │  │          ico_upload_20_wh.svg
-│  │  │  │          ico_urgent_badge_danger.svg
-│  │  │  │          ico_urgent_badge_info.svg
-│  │  │  │          ico_urgent_badge_ok.svg
-│  │  │  │
-│  │  │  ├─guide
-│  │  │  │      favicon_180.png
-│  │  │  │      favicon_192.png
-│  │  │  │      favicon_32.png
-│  │  │  │      favicon_512.png
-│  │  │  │
-│  │  │  └─pattern
-│  │  │      ├─common
-│  │  │      │      ico_bread_arr.svg
-│  │  │      │      ico_bread_home.svg
-│  │  │      │      ico_close_48.svg
-│  │  │      │      ico_drop_arr.svg
-│  │  │      │      ico_h_tit_drop_arr.svg
-│  │  │      │      ico_info.svg
-│  │  │      │      ico_sch1_20.svg
-│  │  │      │      ico_time_16.svg
-│  │  │      │
-│  │  │      ├─content
-│  │  │      │      balloon-bottom.png
-│  │  │      │      btm_ban_ico_flag.svg
-│  │  │      │      ico_arr_expand.svg
-│  │  │      │      ico_check_rd_20.svg
-│  │  │      │      ico_conts_expand.svg
-│  │  │      │      ico_helper_info.svg
-│  │  │      │      ico_helper_info_trans.svg
-│  │  │      │      ico_login_certify_go.svg
-│  │  │      │      ico_login_certify_type_01.svg
-│  │  │      │      ico_login_certify_type_02.svg
-│  │  │      │      ico_login_certify_type_03.svg
-│  │  │      │      ico_login_certify_type_04.svg
-│  │  │      │      ico_login_certify_type_05.svg
-│  │  │      │      ico_login_certify_type_06.svg
-│  │  │      │      ico_outline.svg
-│  │  │      │      ico_outline_chk.svg
-│  │  │      │      ico_smile_20.svg
-│  │  │      │      main_ico_bag_S.svg
-│  │  │      │      main_ico_bankbook_L.svg
-│  │  │      │      main_ico_bankbook_S.svg
-│  │  │      │      main_ico_battery_M.svg
-│  │  │      │      main_ico_book_M.svg
-│  │  │      │      main_ico_building_L.svg
-│  │  │      │      main_ico_building_M.svg
-│  │  │      │      main_ico_bulb_S.svg
-│  │  │      │      main_ico_card_S.svg
-│  │  │      │      main_ico_energy_S.svg
-│  │  │      │      main_ico_store_S.svg
-│  │  │      │      main_ico_truck_S.svg
-│  │  │      │      main_menu_blue_ico1.svg
-│  │  │      │      main_menu_blue_ico2.svg
-│  │  │      │      main_menu_blue_ico3.svg
-│  │  │      │      main_menu_blue_ico4.svg
-│  │  │      │      main_menu_ico1.svg
-│  │  │      │      main_menu_ico2.svg
-│  │  │      │      main_menu_ico3.svg
-│  │  │      │      main_menu_ico4.svg
-│  │  │      │      main_menu_ico5.svg
-│  │  │      │      main_menu_ico6.svg
-│  │  │      │      main_menu_ico7.svg
-│  │  │      │      main_menu_ico8.svg
-│  │  │      │      top_ban_ico_flag.svg
-│  │  │      │
-│  │  │      ├─layout
-│  │  │      │      foot_ico_plus.svg
-│  │  │      │      foot_ico_sns_blog.svg
-│  │  │      │      foot_ico_sns_facebook.svg
-│  │  │      │      foot_ico_sns_Instagram.svg
-│  │  │      │      foot_ico_sns_twitter.svg
-│  │  │      │      foot_ico_sns_youtube.svg
-│  │  │      │      head_gnb_ico_arr.svg
-│  │  │      │      head_gnb_ico_arr_on.svg
-│  │  │      │      head_ico_navi_all.svg
-│  │  │      │      head_ico_navi_join.svg
-│  │  │      │      head_ico_navi_login.svg
-│  │  │      │      head_ico_navi_my.svg
-│  │  │      │      head_ico_navi_sch.svg
-│  │  │      │      head_ico_nuri.svg
-│  │  │      │      head_logo.svg
-│  │  │      │      head_logo_slogan.svg
-│  │  │      │      lnb_ico_prev.svg
-│  │  │      │
-│  │  │      └─sample
-│  │  │              sample_img_total_thum1.jpg
-│  │  │              sample_img_total_thum2.jpg
-│  │  │              sample_img_total_thum3.jpg
-│  │  │              sample_main_news_thum1.jpg
-│  │  │              sample_main_news_thum2.jpg
-│  │  │              sample_main_person_thum1.jpg
-│  │  │              sample_main_person_thum2.jpg
-│  │  │
 │  │  └─output
 │  │          c_components.css
 │  │          c_forms.css
@@ -328,6 +154,181 @@ ROOT
 │  │          p_common.css
 │  │          p_content.css
 │  │          p_layout.css
+│  │
+│  ├─fonts
+│  │      PretendardGOV-Bold.subset.woff
+│  │      PretendardGOV-Medium.subset.woff
+│  │      PretendardGOV-Regular.subset.woff
+│  │
+│  ├─images
+│  │  ├─component
+│  │  │  └─common
+│  │  │          ico-prev_24.svg
+│  │  │          ico_arr1_20_right.svg
+│  │  │          ico_arr_16_down.svg
+│  │  │          ico_arr_16_right_gray70.svg
+│  │  │          ico_arr_20_down_blue.svg
+│  │  │          ico_arr_20_down_white.svg
+│  │  │          ico_arr_20_right.svg
+│  │  │          ico_arr_20_right_disabled.svg
+│  │  │          ico_arr_accordion.svg
+│  │  │          ico_arr_func_20.svg
+│  │  │          ico_bread_dot.svg
+│  │  │          ico_calendar.svg
+│  │  │          ico_call.svg
+│  │  │          ico_cal_dropdown.svg
+│  │  │          ico_cal_move.svg
+│  │  │          ico_check_8.svg
+│  │  │          ico_check_chip.svg
+│  │  │          ico_check_chip_checked.svg
+│  │  │          ico_check_chip_disabled.svg
+│  │  │          ico_check_primary_checked.svg
+│  │  │          ico_check_primary_disabled.svg
+│  │  │          ico_check_secondary.svg
+│  │  │          ico_check_secondary_checked.svg
+│  │  │          ico_check_secondary_disabled.svg
+│  │  │          ico_chip_del.svg
+│  │  │          ico_close_24.svg
+│  │  │          ico_close_modal.svg
+│  │  │          ico_comment_16.svg
+│  │  │          ico_del1_20.svg
+│  │  │          ico_del_20.svg
+│  │  │          ico_email_20.svg
+│  │  │          ico_faq.svg
+│  │  │          ico_file_20.svg
+│  │  │          ico_filter_20.svg
+│  │  │          ico_foldable.svg
+│  │  │          ico_go_20.svg
+│  │  │          ico_help_24.svg
+│  │  │          ico_hint_20.svg
+│  │  │          ico_hint_error.svg
+│  │  │          ico_info.svg
+│  │  │          ico_invalid_error_20.svg
+│  │  │          ico_invalid_ok_20.svg
+│  │  │          ico_like_20.svg
+│  │  │          ico_link_16.svg
+│  │  │          ico_login_20.svg
+│  │  │          ico_logout_16.svg
+│  │  │          ico_page_arr_left.svg
+│  │  │          ico_page_arr_right.svg
+│  │  │          ico_page_dot.svg
+│  │  │          ico_plus_24.svg
+│  │  │          ico_print_20.svg
+│  │  │          ico_pw_visible.svg
+│  │  │          ico_refresh_16.svg
+│  │  │          ico_sch1_20.svg
+│  │  │          ico_sch_20_wh.svg
+│  │  │          ico_sch_40.svg
+│  │  │          ico_scrap_20.svg
+│  │  │          ico_select_20.svg
+│  │  │          ico_select_lg.svg
+│  │  │          ico_setting_20.svg
+│  │  │          ico_share_20.svg
+│  │  │          ico_step_active.svg
+│  │  │          ico_swiper_more.svg
+│  │  │          ico_swiper_next.svg
+│  │  │          ico_swiper_next_gray.svg
+│  │  │          ico_swiper_next_wh.svg
+│  │  │          ico_swiper_play.svg
+│  │  │          ico_swiper_prev.svg
+│  │  │          ico_swiper_prev_gray.svg
+│  │  │          ico_swiper_prev_wh.svg
+│  │  │          ico_swiper_stop.svg
+│  │  │          ico_tooltip_20.svg
+│  │  │          ico_tool_arr.svg
+│  │  │          ico_upload_20_wh.svg
+│  │  │          ico_urgent_badge_danger.svg
+│  │  │          ico_urgent_badge_info.svg
+│  │  │          ico_urgent_badge_ok.svg
+│  │  │
+│  │  ├─favicon
+│  │  │      favicon_180.png
+│  │  │      favicon_192.png
+│  │  │      favicon_32.png
+│  │  │      favicon_512.png
+│  │  │
+│  │  └─pattern
+│  │      ├─common
+│  │      │      ico_bread_arr.svg
+│  │      │      ico_bread_home.svg
+│  │      │      ico_close_48.svg
+│  │      │      ico_drop_arr.svg
+│  │      │      ico_h_tit_drop_arr.svg
+│  │      │      ico_info.svg
+│  │      │      ico_sch1_20.svg
+│  │      │      ico_time_16.svg
+│  │      │
+│  │      ├─content
+│  │      │      balloon-bottom.png
+│  │      │      btm_ban_ico_flag.svg
+│  │      │      ico_arr_expand.svg
+│  │      │      ico_check_rd_20.svg
+│  │      │      ico_conts_expand.svg
+│  │      │      ico_helper_info.svg
+│  │      │      ico_helper_info_trans.svg
+│  │      │      ico_login_certify_go.svg
+│  │      │      ico_login_certify_type_01.svg
+│  │      │      ico_login_certify_type_02.svg
+│  │      │      ico_login_certify_type_03.svg
+│  │      │      ico_login_certify_type_04.svg
+│  │      │      ico_login_certify_type_05.svg
+│  │      │      ico_login_certify_type_06.svg
+│  │      │      ico_outline.svg
+│  │      │      ico_outline_chk.svg
+│  │      │      ico_smile_20.svg
+│  │      │      main_ico_bag_S.svg
+│  │      │      main_ico_bankbook_L.svg
+│  │      │      main_ico_bankbook_S.svg
+│  │      │      main_ico_battery_M.svg
+│  │      │      main_ico_book_M.svg
+│  │      │      main_ico_building_L.svg
+│  │      │      main_ico_building_M.svg
+│  │      │      main_ico_bulb_S.svg
+│  │      │      main_ico_card_S.svg
+│  │      │      main_ico_energy_S.svg
+│  │      │      main_ico_store_S.svg
+│  │      │      main_ico_truck_S.svg
+│  │      │      main_menu_blue_ico1.svg
+│  │      │      main_menu_blue_ico2.svg
+│  │      │      main_menu_blue_ico3.svg
+│  │      │      main_menu_blue_ico4.svg
+│  │      │      main_menu_ico1.svg
+│  │      │      main_menu_ico2.svg
+│  │      │      main_menu_ico3.svg
+│  │      │      main_menu_ico4.svg
+│  │      │      main_menu_ico5.svg
+│  │      │      main_menu_ico6.svg
+│  │      │      main_menu_ico7.svg
+│  │      │      main_menu_ico8.svg
+│  │      │      top_ban_ico_flag.svg
+│  │      │
+│  │      ├─layout
+│  │      │      foot_ico_plus.svg
+│  │      │      foot_ico_sns_blog.svg
+│  │      │      foot_ico_sns_facebook.svg
+│  │      │      foot_ico_sns_Instagram.svg
+│  │      │      foot_ico_sns_twitter.svg
+│  │      │      foot_ico_sns_youtube.svg
+│  │      │      head_gnb_ico_arr.svg
+│  │      │      head_gnb_ico_arr_on.svg
+│  │      │      head_ico_navi_all.svg
+│  │      │      head_ico_navi_join.svg
+│  │      │      head_ico_navi_login.svg
+│  │      │      head_ico_navi_my.svg
+│  │      │      head_ico_navi_sch.svg
+│  │      │      head_ico_nuri.svg
+│  │      │      head_logo.svg
+│  │      │      head_logo_slogan.svg
+│  │      │      lnb_ico_prev.svg
+│  │      │
+│  │      └─sample
+│  │              sample_img_total_thum1.jpg
+│  │              sample_img_total_thum2.jpg
+│  │              sample_img_total_thum3.jpg
+│  │              sample_main_news_thum1.jpg
+│  │              sample_main_news_thum2.jpg
+│  │              sample_main_person_thum1.jpg
+│  │              sample_main_person_thum2.jpg
 │  │
 │  └─js
 │      ├─component
@@ -369,6 +370,7 @@ ROOT
         27. 서비스 신청(신청안내(건물대장등본발급)-도움패널 타입2).html
         28. 서비스 신청(신청안내(자료신청)).html
         29. 서비스 신청(신청안내(신청완료)).html
+        30. 바구니(바구니 신청대상 목록).html
         31. 방문(방문유형1-1).html
         32. 방문(방문유형1-2).html
         33. 방문(방문유형2-1).html

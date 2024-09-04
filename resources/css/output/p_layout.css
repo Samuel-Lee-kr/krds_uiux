@@ -116,7 +116,7 @@
     width: 2.4rem;
     height: 1.6rem;
     margin-right: var(--krds-spacer-2);
-    background: url(../images/pattern/content/top_ban_ico_flag.svg) no-repeat center;
+    background: url(../../images/pattern/content/top_ban_ico_flag.svg) no-repeat center;
     background-size: contain;
 }
 #header-top .toggle-head .toggle-btn {
@@ -125,7 +125,7 @@
     height: auto;
 }
 #header-top .toggle-head .toggle-btn::after {
-    background-image: url(../images/component/common/ico_arr_20_down_blue.svg);
+    background-image: url(../../images/component/common/ico_arr_20_down_blue.svg);
     transition: 0.4s ease-in-out;
 }
 #header-top .toggle-head.active .toggle-btn::after {
@@ -167,7 +167,7 @@
     content: "";
     width: 2rem;
     height: 2rem;
-    background-image: url(../images/pattern/layout/head_ico_nuri.svg);
+    background-image: url(../../images/pattern/layout/head_ico_nuri.svg);
 }
 #header-top .toggle-body .dl dd {
     padding-left: var(--krds-spacer-7);
@@ -288,19 +288,19 @@
     flex-direction: row;
 }
 #header .head-body .btn-navi.sch::before {
-    background-image: url(../images/pattern/layout/head_ico_navi_sch.svg);
+    background-image: url(../../images/pattern/layout/head_ico_navi_sch.svg);
 }
 #header .head-body .btn-navi.login::before {
-    background-image: url(../images/pattern/layout/head_ico_navi_login.svg);
+    background-image: url(../../images/pattern/layout/head_ico_navi_login.svg);
 }
 #header .head-body .btn-navi.join::before {
-    background-image: url(../images/pattern/layout/head_ico_navi_join.svg);
+    background-image: url(../../images/pattern/layout/head_ico_navi_join.svg);
 }
 #header .head-body .btn-navi.my::before {
-    background-image: url(../images/pattern/layout/head_ico_navi_my.svg);
+    background-image: url(../../images/pattern/layout/head_ico_navi_my.svg);
 }
 #header .head-body .btn-navi.all::before {
-    background-image: url(../images/pattern/layout/head_ico_navi_all.svg);
+    background-image: url(../../images/pattern/layout/head_ico_navi_all.svg);
 }
 #header .head-gnb {
     border-top: 0.1rem solid var(--krds-gray-30);
@@ -333,7 +333,7 @@
     content: "";
     width: 2rem;
     height: 2rem;
-    background: url(../images/pattern/layout/head_gnb_ico_arr.svg) no-repeat center;
+    background: url(../../images/pattern/layout/head_gnb_ico_arr.svg) no-repeat center;
     background-size: contain;
 }
 #header .head-gnb .gnb .li .mn.active {
@@ -349,7 +349,7 @@
     background-color: var(--krds-white);
 }
 #header .head-gnb .gnb .li .mn:not(.active):hover::after {
-    background-image: url(../images/pattern/layout/head_gnb_ico_arr_on.svg);
+    background-image: url(../../images/pattern/layout/head_gnb_ico_arr_on.svg);
 }
 #header .head-gnb .gnb .li .mn-link::after {
     display: none;
@@ -368,7 +368,7 @@
     right: 1.6rem;
     width: 3.2rem;
     height: 3.2rem;
-    background-image: url(../images/component/common/ico_close_24.svg);
+    background-image: url(../../images/component/common/ico_close_24.svg);
 }
 #header .w-gnb-wrap .w-gnb-menu {
     display: flex;
@@ -415,7 +415,7 @@
     content: "";
     width: 2rem;
     height: 2rem;
-    background-image: url(../images/component/common/ico_go_20.svg);
+    background-image: url(../../images/component/common/ico_go_20.svg);
 }
 #header .w-gnb-wrap .w-gnb-menu .menu-wrap .sub-ban {
     padding: 0 var(--krds-spacer-4);
@@ -656,7 +656,7 @@
 #header .m-gnb-wrap .ico-close {
     width: 2.4rem;
     height: 2.4rem;
-    background-image: url(../images/component/common/ico_close_24.svg);
+    background-image: url(../../images/component/common/ico_close_24.svg);
 }
 #header .m-gnb-wrap .m-gnb-head {
     display: flex;
@@ -706,7 +706,7 @@
     font-weight: 700;
 }
 #header .m-gnb-wrap .m-gnb-head .btn-navi.login::before {
-    background-image: url(../images/pattern/layout/head_ico_navi_login.svg);
+    background-image: url(../../images/pattern/layout/head_ico_navi_login.svg);
 }
 #header .m-gnb-wrap .m-gnb-head .etc-menu {
     display: flex;
@@ -930,7 +930,7 @@
     content: "";
     width: 2.4rem;
     height: 2.4rem;
-    background-image: url(../images/pattern/layout/lnb_ico_prev.svg);
+    background-image: url(../../images/pattern/layout/lnb_ico_prev.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -1113,7 +1113,7 @@
     bottom: 100%;
     width: 2rem;
     height: 1.2rem;
-    background-image: url(../images/pattern/common/ico_drop_arr.svg);
+    background-image: url(../../images/pattern/common/ico_drop_arr.svg);
     transform: translateX(-50%);
 }
 .krds-drop-wrap .drop-menu .drop-in {
@@ -1159,7 +1159,7 @@
     content: "";
     width: 1.6rem;
     height: 1.6rem;
-    background-image: url(../images/component/common/ico_go_20.svg);
+    background-image: url(../../images/component/common/ico_go_20.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -1256,7 +1256,7 @@
     content: "";
     width: 1.6rem;
     height: 1.6rem;
-    background: url(../images/pattern/common/ico_time_16.svg) center;
+    background: url(../../images/pattern/common/ico_time_16.svg) center;
     background-size: contain;
 }
 
@@ -1311,7 +1311,7 @@
     color: var(--krds-secondary-50);
 }
 #container .left-menu .lnb-list .li.active .acco-head .acco-btn::after {
-    background: url(../images/component/common/ico_arr_20_down_blue.svg) no-repeat center;
+    background: url(../../images/component/common/ico_arr_20_down_blue.svg) no-repeat center;
 }
 #container .left-menu .lnb-list .acco-head {
     height: 6.4rem;
@@ -1372,7 +1372,7 @@
     width: 2.4rem;
     height: 2.4rem;
     margin-left: auto;
-    background: url(../images/component/common/ico_arr_16_down.svg) no-repeat center;
+    background: url(../../images/component/common/ico_arr_16_down.svg) no-repeat center;
     background-size: contain;
 }
 #container .left-menu .depth4-wrap {
@@ -1405,7 +1405,7 @@
     content: "";
     width: 2.4rem;
     height: 2.4rem;
-    background-image: url(../images/pattern/layout/lnb_ico_prev.svg);
+    background-image: url(../../images/pattern/layout/lnb_ico_prev.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -1452,7 +1452,7 @@
     width: 2.4rem;
     height: 2.4rem;
     margin-left: auto;
-    background: url(../images/component/common/ico_arr_16_down.svg) no-repeat center;
+    background: url(../../images/component/common/ico_arr_16_down.svg) no-repeat center;
     background-size: contain;
 }
 #container .left-menu .depth4-wrap.is-open {
@@ -1494,7 +1494,7 @@
     content: "";
     width: 2rem;
     height: 2rem;
-    background: url(../images/pattern/layout/foot_ico_plus.svg) no-repeat center;
+    background: url(../../images/pattern/layout/foot_ico_plus.svg) no-repeat center;
     background-size: contain;
 }
 #footer .foot-quick .inner .link:hover {
@@ -1607,19 +1607,19 @@
     background-size: auto 100%;
 }
 #footer .f-cnt .f-link .link-sns a.instagram {
-    background-image: url(../images/pattern/layout/foot_ico_sns_Instagram.svg);
+    background-image: url(../../images/pattern/layout/foot_ico_sns_Instagram.svg);
 }
 #footer .f-cnt .f-link .link-sns a.youtube {
-    background-image: url(../images/pattern/layout/foot_ico_sns_youtube.svg);
+    background-image: url(../../images/pattern/layout/foot_ico_sns_youtube.svg);
 }
 #footer .f-cnt .f-link .link-sns a.twitter {
-    background-image: url(../images/pattern/layout/foot_ico_sns_twitter.svg);
+    background-image: url(../../images/pattern/layout/foot_ico_sns_twitter.svg);
 }
 #footer .f-cnt .f-link .link-sns a.facebook {
-    background-image: url(../images/pattern/layout/foot_ico_sns_facebook.svg);
+    background-image: url(../../images/pattern/layout/foot_ico_sns_facebook.svg);
 }
 #footer .f-cnt .f-link .link-sns a.blog {
-    background-image: url(../images/pattern/layout/foot_ico_sns_blog.svg);
+    background-image: url(../../images/pattern/layout/foot_ico_sns_blog.svg);
 }
 #footer .f-btm {
     display: flex;
@@ -1676,7 +1676,7 @@
     width: 7.2rem;
     height: 2.4rem;
     margin-right: var(--krds-spacer-2);
-    background: url(../images/pattern/content/btm_ban_ico_flag.svg) no-repeat center;
+    background: url(../../images/pattern/content/btm_ban_ico_flag.svg) no-repeat center;
     background-size: contain;
 }
 #footer .f-btm .f-btm-ban-txt {
